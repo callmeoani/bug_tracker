@@ -1,0 +1,15 @@
+.container {
+  background-color: white;
+  color: black;
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+
+.allBugs-container {
+  border-right: solid 2px black;
+}
+
+li {
+  cursor: pointer;
+}

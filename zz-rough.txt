@@ -1,0 +1,8 @@
+What i want to achieve with this simple app.
+
+1) Create an input where the name of the bug will be inputted.
+2) On starting to type, a form will be displayed that will contain extra info about the bug wch will need to be filled.
+3) on submission, the bug will enter an array, buh only the name of the bug will be displayed, with an emoji to indicate the level of intensity and whether resolved or not.
+4) The will be functionality to delete bug.
+
+5)
