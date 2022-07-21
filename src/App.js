@@ -8,7 +8,7 @@ import FormComponent from "./components/form-input/FormComponent";
 function App() {
   const [showMoreDetails, setShowMoreDetails] = useState(false);
 
-  const [bugName, setBugName] = useState({ bugName: "" });
+  const [bugName, setBugName] = useState("");
 
   const handleContinueClick = () => {
     bugName.length <= 3
@@ -17,7 +17,7 @@ function App() {
   };
 
   const handleNewBugInput = (event) => {
-    setBugName({ bugName: event.target.value });
+    setBugName(event.target.value);
   };
 
   return (
@@ -32,7 +32,7 @@ function App() {
                 type="text"
                 name="title"
                 onChange={handleNewBugInput}
-                value={bugName.bugName}
+                value={bugName}
               />{" "}
               <button onClick={handleContinueClick}>Continue</button>
             </label>
